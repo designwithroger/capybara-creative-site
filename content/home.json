@@ -1,7 +1,5 @@
 {
-  "eyebrow": "DESIGN & WEBFLOW DEVELOPMENT AGENCY",
-  "heroTitle": "Brands that stand out. Sites that ship in two weeks.",
-  "heroSubtitle": "Web development, visual identity, and creative strategy for businesses looking to stand out. We bring your ideas to life with a fresh, professional touch — high quality, fast results.",
+  "footerEmail": "hello@capybaracreative.xyz",
   "marquee": [
     "HIGH QUALITY, FAST RESULTS",
     "DONE IN TWO WEEKS",
@@ -13,25 +11,59 @@
     "FRESH, PROFESSIONAL TOUCH"
   ],
   "workLabel": "2023—2026",
-  "services": [
-    { "num": "01", "name": "Vizaĝo — Branding", "desc": "\"Face\" in Esperanto. A full brand done in two weeks: custom logo, typography, colors, style guide, and the marketing materials to stay consistent." },
-    { "num": "02", "name": "Uzanto — UX/UI design", "desc": "\"User.\" Research, intuitive flows, and beautiful interfaces your users will love — on the web or on mobile." },
-    { "num": "03", "name": "Unuigo — Design + Webflow", "desc": "\"Unification.\" From a stunning user experience to a responsive Webflow build — one seamless, complete digital solution." },
-    { "num": "04", "name": "Cycles — Brand + website", "desc": "Fresh branding plus a website with 3–8 subpages, completed in two weeks — social templates included if time allows. $1.8K." }
-  ],
   "processLabel": "SIMPLE & COLLABORATIVE",
+  "socialInstagram": "https://www.instagram.com/capybaracreative.xyz/",
   "steps": [
-    { "num": "STEP 1", "name": "Kickoff call", "desc": "We start with a call to understand your goals and inspiration." },
-    { "num": "STEP 2", "name": "We handle the rest", "desc": "You give feedback while we design and build. Updates every two days — written notes or Loom videos, your pick." },
-    { "num": "STEP 3", "name": "Unlimited revisions", "desc": "Not quite right? Send it back. We keep revising until it's exactly what you're looking for." },
-    { "num": "STEP 4", "name": "Launch", "desc": "High quality, fast results — your project completed in just two weeks." }
+    {
+      "num": "STEP 1",
+      "name": "Kickoff call",
+      "desc": "We start with a call to understand your goals and inspiration."
+    },
+    {
+      "num": "STEP 2",
+      "name": "We handle the rest",
+      "desc": "You give feedback while we design and build. Updates every two days — written notes or Loom videos, your pick."
+    },
+    {
+      "num": "STEP 3",
+      "name": "Unlimited revisions",
+      "desc": "Not quite right? Send it back. We keep revising until it's exactly what you're looking for."
+    },
+    {
+      "num": "STEP 4",
+      "name": "Launch",
+      "desc": "High quality, fast results — your project completed in just two weeks."
+    }
   ],
+  "copyright": "© 2026 CAPYBARA CREATIVE",
+  "eyebrow": "DESIGN & WEBFLOW DEVELOPMENT AGENCY",
+  "socialLinkedin": "",
+  "quoteAttr": "[ Diego Yanez — Alfred, CEO]",
+  "socialDribbble": "",
+  "heroSubtitle": "Web development, visual identity, and creative strategy for businesses looking to stand out. We bring your ideas to life with a fresh, professional touch — high quality, fast results.",
   "quoteLabel": "WHAT CLIENTS SAY",
   "quote": "Sent it back twice, they kept revising until it was exactly right — and still launched in two weeks.",
-  "quoteAttr": "[ CLIENT NAME — COMPANY, ROLE ]",
-  "footerEmail": "hello@capybaracreative.xyz",
-  "socialInstagram": "https://www.instagram.com/capybaracreative.xyz/",
-  "socialLinkedin": "",
-  "socialDribbble": "",
-  "copyright": "© 2026 CAPYBARA CREATIVE"
+  "services": [
+    {
+      "num": "01",
+      "name": "Vizaĝo — Branding",
+      "desc": "\"Face\" in Esperanto. A full brand done in two weeks: custom logo, typography, colors, style guide, and the marketing materials to stay consistent."
+    },
+    {
+      "num": "02",
+      "name": "Uzanto — UX/UI design",
+      "desc": "\"User.\" Research, intuitive flows, and beautiful interfaces your users will love — on the web or on mobile."
+    },
+    {
+      "num": "03",
+      "name": "Unuigo — Design + Webflow",
+      "desc": "\"Unification.\" From a stunning user experience to a responsive Webflow build — one seamless, complete digital solution."
+    },
+    {
+      "num": "04",
+      "name": "Cycles — Brand + website",
+      "desc": "Fresh branding plus a website with 3–8 subpages, completed in two weeks — social templates included if time allows. $1.8K."
+    }
+  ],
+  "heroTitle": "Brands that stand out. Sites that ship in two weeks."
 }
