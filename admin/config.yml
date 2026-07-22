@@ -1,0 +1,78 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "home"
+    label: "Home Page"
+    files:
+      - name: "home"
+        label: "Home Page Content"
+        file: "content/home.json"
+        fields:
+          - { name: "eyebrow", label: "Eyebrow (above headline)", widget: "string" }
+          - { name: "heroTitle", label: "Hero Headline", widget: "string" }
+          - { name: "heroSubtitle", label: "Hero Subtitle", widget: "text" }
+          - name: "marquee"
+            label: "Scrolling Marquee Items"
+            widget: "list"
+            field: { name: "item", label: "Item", widget: "string" }
+          - { name: "workLabel", label: "Selected Work — Year Range Label", widget: "string" }
+          - name: "services"
+            label: "Packages"
+            widget: "list"
+            fields:
+              - { name: "num", label: "Number", widget: "string" }
+              - { name: "name", label: "Name", widget: "string" }
+              - { name: "desc", label: "Description", widget: "text" }
+          - { name: "processLabel", label: "Process — Small Label", widget: "string" }
+          - name: "steps"
+            label: "Process Steps"
+            widget: "list"
+            fields:
+              - { name: "num", label: "Step Number", widget: "string" }
+              - { name: "name", label: "Name", widget: "string" }
+              - { name: "desc", label: "Description", widget: "text" }
+          - { name: "quoteLabel", label: "Quote — Small Label", widget: "string" }
+          - { name: "quote", label: "Client Quote", widget: "text" }
+          - { name: "quoteAttr", label: "Quote Attribution", widget: "string" }
+          - { name: "footerEmail", label: "Contact Email", widget: "string" }
+          - { name: "socialInstagram", label: "Instagram URL", widget: "string", required: false }
+          - { name: "socialLinkedin", label: "LinkedIn URL", widget: "string", required: false }
+          - { name: "socialDribbble", label: "Dribbble URL", widget: "string", required: false }
+          - { name: "copyright", label: "Copyright Line", widget: "string" }
+
+  - name: "projects"
+    label: "Work / Case Studies"
+    files:
+      - name: "projects"
+        label: "Projects List"
+        file: "content/projects.json"
+        fields:
+          - name: "projects"
+            label: "Projects"
+            widget: "list"
+            summary: "{{name}} — {{sector}}"
+            fields:
+              - { name: "name", label: "Project Name", widget: "string" }
+              - { name: "sector", label: "Sector / Tags", widget: "string" }
+              - { name: "scope", label: "Home Card — Scope Line", widget: "string" }
+              - { name: "stat", label: "Home Card — Stat / Package Word", widget: "string" }
+              - { name: "year", label: "Year", widget: "string" }
+              - { name: "pkg", label: "Package Badge", widget: "string" }
+              - { name: "thumbImage", label: "Home Grid Thumbnail (4:3)", widget: "image", required: false }
+              - { name: "heroImage", label: "Detail Page Hero Image (16:8)", widget: "image", required: false }
+              - { name: "about", label: "About Headline", widget: "text" }
+              - { name: "challenge", label: "Challenge", widget: "text" }
+              - { name: "solution", label: "Solution", widget: "text" }
+              - { name: "galleryFull1", label: "Gallery — Full Width Shot 1", widget: "image", required: false }
+              - { name: "galleryDetail1", label: "Gallery — Detail Shot 1", widget: "image", required: false }
+              - { name: "galleryDetail2", label: "Gallery — Detail Shot 2", widget: "image", required: false }
+              - { name: "galleryFull2", label: "Gallery — Full Width Shot 2", widget: "image", required: false }
+              - name: "deliverables"
+                label: "Deliverables"
+                widget: "list"
+                field: { name: "item", label: "Deliverable", widget: "string" }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Capybara Creative — Project detail</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62.5..125,100..900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" aria-label="Capybara Creative" class="nav-logo"></a>
+  <div class="nav-links mono">
+    <a href="index.html#work">WORK</a>
+    <a href="index.html#services">PACKAGES</a>
+    <a href="index.html#process">PROCESS</a>
+    <a href="index.html#contact">CONTACT</a>
+  </div>
+  <a href="index.html#contact" class="nav-cta mono">START A PROJECT</a>
+</nav>
+
+<header class="detail-header">
+  <a href="index.html#work" class="back-link mono">← ALL WORK</a>
+  <h1 id="p-name" class="hero-anim"></h1>
+  <div class="detail-meta hero-anim">
+    <div class="detail-tags mono">
+      <span id="p-year"></span>
+      <span id="p-sector"></span>
+      <span id="p-pkg" class="pkg"></span>
+    </div>
+    <a href="index.html#contact" class="detail-visit mono">VISIT WEBSITE ↗</a>
+  </div>
+</header>
+
+<div class="hero-shot">
+  <div id="p-hero-frame" class="frame"></div>
+</div>
+
+<section class="about-section">
+  <span class="eyebrow mono" data-reveal>ABOUT</span>
+  <h2 id="p-about" data-reveal></h2>
+  <div class="about-grid" data-reveal>
+    <div class="col">
+      <span class="eyebrow mono">CHALLENGE</span>
+      <p id="p-challenge"></p>
+    </div>
+    <div class="col">
+      <span class="eyebrow mono">SOLUTION</span>
+      <p id="p-solution"></p>
+    </div>
+  </div>
+</section>
+
+<section class="gallery-section">
+  <div id="p-gallery-full-1" class="gallery-full" data-reveal></div>
+  <div class="gallery-pair" data-reveal>
+    <div id="p-gallery-detail-1" class="item"></div>
+    <div id="p-gallery-detail-2" class="item"></div>
+  </div>
+  <div id="p-gallery-full-2" class="gallery-full" data-reveal></div>
+</section>
+
+<section class="deliverables-section" data-reveal>
+  <span class="eyebrow mono">DELIVERABLES</span>
+  <div id="p-deliverables"></div>
+</section>
+
+<a id="p-next-link" href="project.html?p=2" class="next-case" data-reveal>
+  <span class="label mono">NEXT CASE →</span>
+  <span id="p-next-name" class="name"></span>
+  <span id="p-next-meta" class="meta mono"></span>
+</a>
+
+<footer id="contact">
+  <div class="footer-eyebrow mono">GETTING STARTED IS EASY</div>
+  <a id="p-footer-email-link" href="mailto:hello@capybaracreative.xyz" class="footer-cta">Let's build.</a>
+  <div class="footer-bottom mono">
+    <span id="p-footer-email"></span>
+    <div class="socials">
+      <a id="p-social-instagram" href="#" target="_blank" rel="noopener">INSTAGRAM</a>
+      <a id="p-social-linkedin" href="#" target="_blank" rel="noopener">LINKEDIN</a>
+      <a id="p-social-dribbble" href="#" target="_blank" rel="noopener">DRIBBBLE</a>
+    </div>
+    <span id="p-copyright" class="copyright"></span>
+  </div>
+</footer>
+
+<script src="js/render-project.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
