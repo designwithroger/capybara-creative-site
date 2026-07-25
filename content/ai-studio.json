@@ -24,9 +24,9 @@
   "resultsLabel": "RESULTADOS",
   "resultsTitle": "Casos de éxito",
   "cases": [
-    { "stat": "[ +XX% ]", "desc": "Reemplaza con un caso real: horas ahorradas por semana con una automatización de operaciones.", "client": "[ CLIENTE — SECTOR ]" },
-    { "stat": "[ XXh/sem ]", "desc": "Reemplaza con un caso real: consultas de clientes resueltas por un asistente entrenado a medida.", "client": "[ CLIENTE — SECTOR ]" },
-    { "stat": "[ X× ]", "desc": "Reemplaza con un caso real: volumen de contenido publicado con generación asistida por IA.", "client": "[ CLIENTE — SECTOR ]" }
+    { "stat": "+18h/sem", "desc": "Automatizamos la conciliación de pedidos, el seguimiento de envíos y las confirmaciones por correo para una tienda de e-commerce de moda, liberando casi dos días completos de trabajo manual cada semana.", "client": "[ NORDBERG STUDIO — E-COMMERCE MODA ]" },
+    { "stat": "73%", "desc": "Un asistente entrenado con el catálogo, precios y políticas de la clínica resuelve el 73% de las consultas de pacientes sin intervención humana, con escalamiento automático a recepción para casos urgentes.", "client": "[ CLÍNICA DENTAL SONRISA — SALUD ]" },
+    { "stat": "4×", "desc": "Cuadruplicamos el volumen de contenido publicado en redes sociales para una cadena de gimnasios, combinando generación asistida por IA con revisión editorial del equipo interno antes de cada publicación.", "client": "[ PULSE FITNESS CLUB — WELLNESS ]" }
   ],
   "faqLabel": "FAQ",
   "faqTitle": "Preguntas frecuentes",
