@@ -76,3 +76,62 @@ collections:
                 label: "Deliverables"
                 widget: "list"
                 field: { name: "item", label: "Deliverable", widget: "string" }
+
+  - name: "ai_studio"
+    label: "AI Studio Page"
+    files:
+      - name: "ai_studio"
+        label: "AI Studio Content"
+        file: "content/ai-studio.json"
+        fields:
+          - { name: "metaTitle", label: "Page Title (browser tab / SEO)", widget: "string" }
+          - { name: "metaDescription", label: "Meta Description (SEO)", widget: "text" }
+          - { name: "eyebrow", label: "Eyebrow (above headline)", widget: "string" }
+          - { name: "heroTitle", label: "Hero Headline", widget: "string" }
+          - { name: "heroSubtitle", label: "Hero Subtitle", widget: "text" }
+          - { name: "heroCta", label: "Hero Button Text", widget: "string" }
+          - { name: "servicesLabel", label: "Services — Small Label", widget: "string" }
+          - { name: "servicesTitle", label: "Services — Title", widget: "string" }
+          - name: "services"
+            label: "Services"
+            widget: "list"
+            summary: "{{name}}"
+            fields:
+              - { name: "num", label: "Number", widget: "string" }
+              - { name: "name", label: "Name", widget: "string" }
+              - { name: "desc", label: "Description", widget: "text" }
+              - { name: "tags", label: "Tags Line", widget: "string" }
+          - { name: "processTitle", label: "Process — Title", widget: "string" }
+          - { name: "processLabel", label: "Process — Small Label", widget: "string" }
+          - name: "steps"
+            label: "Process Steps"
+            widget: "list"
+            summary: "{{name}}"
+            fields:
+              - { name: "num", label: "Step Number", widget: "string" }
+              - { name: "name", label: "Name", widget: "string" }
+              - { name: "desc", label: "Description", widget: "text" }
+          - { name: "resultsLabel", label: "Results — Small Label", widget: "string" }
+          - { name: "resultsTitle", label: "Results — Title", widget: "string" }
+          - name: "cases"
+            label: "Case Study Results"
+            widget: "list"
+            summary: "{{stat}} — {{client}}"
+            fields:
+              - { name: "stat", label: "Stat (big number)", widget: "string" }
+              - { name: "desc", label: "Description", widget: "text" }
+              - { name: "client", label: "Client / Sector Line", widget: "string" }
+          - { name: "faqLabel", label: "FAQ — Small Label", widget: "string" }
+          - { name: "faqTitle", label: "FAQ — Title", widget: "string" }
+          - name: "faqs"
+            label: "FAQ Items"
+            widget: "list"
+            summary: "{{q}}"
+            fields:
+              - { name: "q", label: "Question", widget: "string" }
+              - { name: "a", label: "Answer", widget: "text" }
+          - { name: "footerLabel", label: "Footer — Small Label", widget: "string" }
+          - { name: "footerCta", label: "Footer — Button Headline", widget: "string" }
+          - { name: "footerSubtext", label: "Footer — Subtext", widget: "text" }
+          - { name: "contactEmail", label: "Contact Email", widget: "string" }
+          - { name: "contactSubject", label: "Contact Email Subject", widget: "string" }

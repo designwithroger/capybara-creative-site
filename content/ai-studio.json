@@ -1,0 +1,45 @@
+{
+  "metaTitle": "Capybara AI Studio — Automatización con IA, chatbots y contenido generativo",
+  "metaDescription": "Agencia de IA para negocios: automatizaciones con IA, chatbots personalizados, generación de contenido con IA y consultoría de implementación. Resultados rápidos, sin jerga técnica.",
+  "eyebrow": "CAPYBARA*AI STUDIO — /AI-STUDIO",
+  "heroTitle": "La IA trabajando para tu negocio. No al revés.",
+  "heroSubtitle": "Automatizaciones, chatbots y contenido generado con IA — diseñados e implementados por el mismo equipo detrás de Capybara Creative. Menos tareas repetitivas, más tiempo para hacer crecer tu negocio.",
+  "heroCta": "AGENDA UNA CONSULTA →",
+  "servicesLabel": "SERVICIOS DE IA",
+  "servicesTitle": "Qué hacemos",
+  "services": [
+    { "num": "01", "name": "Automatizaciones con IA", "desc": "Flujos de trabajo que se ejecutan solos: integraciones entre tus herramientas, agentes que procesan correos, pedidos y reportes. Recupera horas cada semana.", "tags": "FLUJOS · INTEGRACIONES · AGENTES" },
+    { "num": "02", "name": "Generación de contenido", "desc": "Copy, imagen y video generados con IA — con la dirección de arte de una agencia de diseño. Volumen de contenido sin perder la voz de tu marca.", "tags": "COPY · IMAGEN · VIDEO" },
+    { "num": "03", "name": "Chatbots y asistentes", "desc": "Asistentes personalizados entrenados con tu información: atención a clientes 24/7, calificación de leads y soporte interno para tu equipo.", "tags": "ATENCIÓN · LEADS · SOPORTE INTERNO" },
+    { "num": "04", "name": "Consultoría e implementación", "desc": "Auditamos tus procesos, identificamos dónde la IA genera retorno real y la implementamos — sin jerga técnica y con tu equipo capacitado al final.", "tags": "DIAGNÓSTICO · ROADMAP · CAPACITACIÓN" }
+  ],
+  "processTitle": "Cómo trabajamos",
+  "processLabel": "SIMPLE Y COLABORATIVO",
+  "steps": [
+    { "num": "PASO 1", "name": "Diagnóstico", "desc": "Una llamada para mapear tus procesos y encontrar dónde la IA genera más valor — priorizado por impacto." },
+    { "num": "PASO 2", "name": "Diseño", "desc": "Definimos la solución: qué se automatiza, qué herramientas usamos y cómo se ve el resultado. Todo por escrito antes de construir." },
+    { "num": "PASO 3", "name": "Implementación", "desc": "Construimos e integramos con avances cada dos días. Revisiones ilimitadas, como en todo lo que hacemos." },
+    { "num": "PASO 4", "name": "Soporte", "desc": "Capacitamos a tu equipo, documentamos todo y quedamos disponibles para ajustes y mejoras continuas." }
+  ],
+  "resultsLabel": "RESULTADOS",
+  "resultsTitle": "Casos de éxito",
+  "cases": [
+    { "stat": "[ +XX% ]", "desc": "Reemplaza con un caso real: horas ahorradas por semana con una automatización de operaciones.", "client": "[ CLIENTE — SECTOR ]" },
+    { "stat": "[ XXh/sem ]", "desc": "Reemplaza con un caso real: consultas de clientes resueltas por un asistente entrenado a medida.", "client": "[ CLIENTE — SECTOR ]" },
+    { "stat": "[ X× ]", "desc": "Reemplaza con un caso real: volumen de contenido publicado con generación asistida por IA.", "client": "[ CLIENTE — SECTOR ]" }
+  ],
+  "faqLabel": "FAQ",
+  "faqTitle": "Preguntas frecuentes",
+  "faqs": [
+    { "q": "¿Mi negocio es demasiado pequeño para usar IA?", "a": "No. Las automatizaciones más rentables suelen estar en equipos pequeños: responder consultas, generar contenido, mover datos entre herramientas. Empezamos por lo que más tiempo te quita hoy." },
+    { "q": "¿Necesito conocimientos técnicos para trabajar con ustedes?", "a": "Cero. Nosotros nos encargamos de la parte técnica y te lo explicamos en lenguaje de negocio. Tú solo necesitas conocer tus procesos; nosotros los traducimos a soluciones." },
+    { "q": "¿Cuánto tarda una implementación?", "a": "Igual que nuestros proyectos de diseño: rápido. Un chatbot o una automatización típica queda funcionando en 2–4 semanas, con actualizaciones cada dos días durante el proyecto." },
+    { "q": "¿Qué pasa con mis datos y los de mis clientes?", "a": "Definimos juntos qué datos puede ver cada herramienta, usamos proveedores con políticas claras de privacidad y documentamos todo en la entrega. Nada se conecta sin tu aprobación." },
+    { "q": "¿Y si la IA se equivoca?", "a": "Diseñamos cada flujo con puntos de revisión humana donde importa (pagos, clientes, contenido público) y medimos resultados antes de escalar. La IA propone; tu equipo decide." }
+  ],
+  "footerLabel": "EMPEZAR ES FÁCIL — CUÉNTANOS QUÉ QUIERES AUTOMATIZAR",
+  "footerCta": "Agenda una consulta.",
+  "footerSubtext": "Una llamada de 30 minutos, sin costo y sin compromiso. Salimos de ella con al menos una oportunidad concreta de IA para tu negocio.",
+  "contactEmail": "hello@capybaracreative.xyz",
+  "contactSubject": "Consulta AI Studio"
+}
