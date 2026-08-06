@@ -28,6 +28,17 @@
     document.getElementById('p-challenge').textContent = p.challenge;
     document.getElementById('p-solution').textContent = p.solution;
 
+    var metricsWrap = document.getElementById('p-metrics');
+    var metrics = p.metrics || [];
+    if (metrics.length) {
+      metricsWrap.style.setProperty('--metric-count', metrics.length);
+      metricsWrap.innerHTML = metrics.map(function (m) {
+        return '<div class="metric-cell"><span class="value">' + m.value + '</span><span class="label mono">' + m.label + '</span></div>';
+      }).join('');
+    } else {
+      metricsWrap.style.display = 'none';
+    }
+
     document.getElementById('p-gallery-full-1').innerHTML = frame(p.galleryFull1, 'FULL-WIDTH SHOT — DESKTOP UI / BRAND IN USE');
     document.getElementById('p-gallery-detail-1').innerHTML = frame(p.galleryDetail1, 'DETAIL — MOBILE / COMPONENTS');
     document.getElementById('p-gallery-detail-2').innerHTML = frame(p.galleryDetail2, 'DETAIL — TYPOGRAPHY / LOGO');

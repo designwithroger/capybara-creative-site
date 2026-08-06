@@ -101,7 +101,7 @@ a:hover { color: inherit; }
   font-weight: 900;
   font-stretch: 112%;
   text-transform: uppercase;
-  font-size: clamp(56px, 8.6vw, 148px);
+  font-size: clamp(42px, 8.6vw, 148px);
   line-height: 0.94;
   letter-spacing: -0.025em;
   color: var(--ink);
@@ -215,7 +215,9 @@ section {
   left: 14px;
   font-size: 11px;
   color: var(--ink);
-  opacity: 0.6;
+  opacity: 0.85;
+  background: var(--bg);
+  padding: 3px 8px;
 }
 .work-title-row {
   display: flex;
@@ -322,7 +324,7 @@ footer {
   font-weight: 900;
   font-stretch: 112%;
   text-transform: uppercase;
-  font-size: clamp(48px, 7.5vw, 120px);
+  font-size: clamp(36px, 7.5vw, 120px);
   line-height: 0.95;
   letter-spacing: -0.025em;
   color: var(--bg);
@@ -362,7 +364,7 @@ footer {
   font-weight: 900;
   font-stretch: 112%;
   text-transform: uppercase;
-  font-size: clamp(56px, 9vw, 150px);
+  font-size: clamp(42px, 9vw, 150px);
   line-height: 0.94;
   letter-spacing: -0.025em;
   color: var(--ink);
@@ -513,7 +515,7 @@ footer {
   font-weight: 900;
   font-stretch: 112%;
   text-transform: uppercase;
-  font-size: clamp(40px, 6vw, 96px);
+  font-size: clamp(30px, 6vw, 96px);
   line-height: 0.95;
   letter-spacing: -0.025em;
 }
@@ -692,6 +694,58 @@ footer {
   .service-row { grid-template-columns: 1fr; gap: 8px; }
   .deliverables-section { grid-template-columns: 1fr; }
   .nav-links { display: none; }
+}
+
+/* Project detail — metrics stat blocks */
+.metrics-section {
+  border-bottom: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: repeat(var(--metric-count, 3), minmax(0, 1fr));
+}
+.metric-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 48px 40px;
+  border-right: 1px solid var(--line);
+}
+.metric-cell:last-child { border-right: none; }
+.metric-cell .value {
+  font-weight: 900;
+  font-stretch: 112%;
+  font-size: clamp(40px, 5vw, 72px);
+  letter-spacing: -0.02em;
+  line-height: 1;
+  color: var(--accent);
+}
+.metric-cell .label {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  color: var(--ink);
+  opacity: 0.65;
+}
+
+/* Home + Project detail — mobile responsive layout */
+@media (max-width: 768px) {
+  .page-home .nav, .page-project .nav { padding: 0 20px; }
+  .page-home section, .page-project section { padding: 64px 20px; }
+  .page-home footer, .page-project footer { padding: 72px 20px 32px; }
+
+  .page-home .hero { padding: 64px 20px 48px; }
+  .page-project .detail-header { padding: 56px 20px 40px; }
+
+  .page-home .process-grid { grid-template-columns: 1fr; }
+  .page-home .service-row { grid-template-columns: 48px 1fr; gap: 8px; }
+  .page-home .service-row .desc { grid-column: 2; }
+
+  .page-project .about-grid,
+  .page-project .gallery-pair,
+  .page-project .deliverables-section { grid-template-columns: 1fr; }
+  .page-project .gallery-section { padding: 20px; }
+
+  .metrics-section { grid-template-columns: 1fr; }
+  .metric-cell { border-right: none; border-bottom: 1px solid var(--line); padding: 32px 20px; }
+  .metric-cell:last-child { border-bottom: none; }
 }
 
 /* AI Studio — fixed responsive font clamps (not breakpoint-dependent) */

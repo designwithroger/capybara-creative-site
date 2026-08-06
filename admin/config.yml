@@ -76,6 +76,14 @@ collections:
                 label: "Deliverables"
                 widget: "list"
                 field: { name: "item", label: "Deliverable", widget: "string" }
+              - name: "metrics"
+                label: "Result Metrics (stat blocks on detail page)"
+                widget: "list"
+                required: false
+                summary: "{{value}} — {{label}}"
+                fields:
+                  - { name: "value", label: "Value (big number)", widget: "string" }
+                  - { name: "label", label: "Label", widget: "string" }
 
   - name: "ai_studio"
     label: "AI Studio Page"
