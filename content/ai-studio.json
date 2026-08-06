@@ -24,9 +24,9 @@
   "resultsLabel": "RESULTADOS",
   "resultsTitle": "Casos de éxito",
   "cases": [
-    { "stat": "+18h/sem", "desc": "Automatizamos la conciliación de pedidos, el seguimiento de envíos y las confirmaciones por correo para una tienda de e-commerce de moda, liberando casi dos días completos de trabajo manual cada semana.", "client": "[ NORDBERG STUDIO — E-COMMERCE MODA ]" },
-    { "stat": "73%", "desc": "Un asistente entrenado con el catálogo, precios y políticas de la clínica resuelve el 73% de las consultas de pacientes sin intervención humana, con escalamiento automático a recepción para casos urgentes.", "client": "[ CLÍNICA DENTAL SONRISA — SALUD ]" },
-    { "stat": "4×", "desc": "Cuadruplicamos el volumen de contenido publicado en redes sociales para una cadena de gimnasios, combinando generación asistida por IA con revisión editorial del equipo interno antes de cada publicación.", "client": "[ PULSE FITNESS CLUB — WELLNESS ]" }
+    { "stat": "+100", "desc": "Ventas semanales generadas para Figurolab y Paintclub tras automatizar su atención al cliente con IA.", "client": "FIGUROLAB + PAINTCLUB — E-COMMERCE" },
+    { "stat": "24/7", "desc": "Atención continua: la IA responde al instante, califica y cierra; el equipo solo interviene donde aporta valor.", "client": "FIGUROLAB + PAINTCLUB — E-COMMERCE" },
+    { "stat": "0", "desc": "Leads perdidos por demora en responder — cada consulta recibe respuesta inmediata, a cualquier hora.", "client": "FIGUROLAB + PAINTCLUB — E-COMMERCE" }
   ],
   "faqLabel": "FAQ",
   "faqTitle": "Preguntas frecuentes",

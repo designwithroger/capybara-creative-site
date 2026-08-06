@@ -692,7 +692,26 @@ footer {
   .service-row { grid-template-columns: 1fr; gap: 8px; }
   .deliverables-section { grid-template-columns: 1fr; }
   .nav-links { display: none; }
-  .ai-services-grid, .ai-cases-grid { grid-template-columns: 1fr; }
-  .ai-steps-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* AI Studio — fixed responsive font clamps (not breakpoint-dependent) */
+.ai-hero h1 { font-size: clamp(40px, 8vw, 136px); }
+.ai-studio .footer-cta { font-size: clamp(34px, 7vw, 110px); }
+
+@media (max-width: 768px) {
+  .ai-studio .nav { padding: 0 20px; }
+  .ai-studio .ai-hero { padding: 64px 20px 48px; }
+  .ai-studio section { padding: 64px 20px; }
+  .ai-studio footer { padding: 72px 20px 32px; }
+
+  .ai-services-grid, .ai-cases-grid, .ai-steps-grid { grid-template-columns: 1fr; }
   .ai-faq-section { grid-template-columns: 1fr; }
+
+  .ai-service-cell { padding: 28px 20px; border-right: none; }
+  .ai-step-cell {
+    border-right: none;
+    border-bottom: 1px solid var(--line);
+    margin-right: 0;
+    padding: 28px 0 28px 0;
+  }
 }
