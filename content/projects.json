@@ -28,7 +28,7 @@
       "year": "2026"
     },
     {
-      "heroImage": "",
+      "heroImage": "/uploads/alfred-3.jpg",
       "challenge": "Alfred was raising and partnering with banks while still looking like a prototype. It needed a brand and product design that could convince regulators, banks, and everyday users at the same time.",
       "metrics": [
         {
@@ -44,14 +44,14 @@
           "label": "PARTNER BANKS ACROSS LATAM"
         }
       ],
-      "thumbImage": "",
+      "thumbImage": "/uploads/alfred-1.jpg",
       "sector": "BRAND + WEB + APP",
       "name": "Alfred",
       "pkg": "UNUIGO",
       "about": "Alfred is a LATAM fintech for fast, simple money movement. We designed the brand, the website, and the app, and developed the site — the platform now moves 12K transactions a month.",
-      "galleryDetail1": "",
+      "galleryDetail1": "/uploads/alfred-4.jpg",
       "galleryDetail2": "",
-      "galleryFull1": "",
+      "galleryFull1": "/uploads/alfred-2.jpg",
       "galleryFull2": "",
       "deliverables": [
         "Brand identity",
