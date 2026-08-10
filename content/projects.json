@@ -91,7 +91,7 @@
       "year": "2025"
     },
     {
-      "heroImage": "",
+      "heroImage": "/uploads/4a-cover.png",
       "challenge": "DAWN had a complex, technical product and needed one coherent identity across five different surfaces — marketing site, app, dashboard, and extension — clear enough for non-technical users to join.",
       "metrics": [
         {
@@ -103,15 +103,15 @@
           "label": "USERS"
         }
       ],
-      "thumbImage": "",
+      "thumbImage": "/uploads/dawn-1.jpg",
       "sector": "BRAND + WEB + APP + EXTENSION",
       "name": "DAWN Internet",
       "pkg": "UNUIGO",
       "about": "DAWN is a decentralized internet provider. We designed the brand and every surface of the product — website, app, dashboard, and Chrome extension — and developed the web.",
-      "galleryDetail1": "",
-      "galleryDetail2": "",
-      "galleryFull1": "",
-      "galleryFull2": "",
+      "galleryDetail1": "/uploads/2d-visionaries.png",
+      "galleryDetail2": "/uploads/3b-shop-laptop.png",
+      "galleryFull1": "/uploads/4b-mosaic.png",
+      "galleryFull2": "/uploads/2e-ui-kit.png",
       "deliverables": [
         "Brand identity",
         "Web design",
