@@ -8,10 +8,5 @@
     });
   }, { threshold: 0.12 });
 
-  function observeAll() {
-    document.querySelectorAll('[data-reveal]:not(.in-view)').forEach(function (el) { io.observe(el); });
-  }
-
-  observeAll();
-  document.addEventListener('content:rendered', observeAll);
+  document.querySelectorAll('[data-reveal]').forEach(function (el) { io.observe(el); });
 })();

@@ -1,5 +1,7 @@
 {
-  "footerEmail": "hello@capybaracreative.xyz",
+  "eyebrow": "DESIGN & WEBFLOW DEVELOPMENT AGENCY",
+  "heroTitle": "Brands that stand out. Sites that ship in two weeks.",
+  "heroSubtitle": "We do web development, brand identity, and creative strategy for businesses that want to stand out. Fresh work, a professional touch, and results you can see fast.",
   "marquee": [
     "HIGH QUALITY, FAST RESULTS",
     "DONE IN TWO WEEKS",
@@ -10,60 +12,58 @@
     "UPDATES EVERY TWO DAYS",
     "FRESH, PROFESSIONAL TOUCH"
   ],
-  "workLabel": "2023—2026",
+  "workLabel": "2023-2026",
   "processLabel": "SIMPLE & COLLABORATIVE",
   "socialInstagram": "https://www.instagram.com/capybaracreative.xyz/",
+  "socialLinkedin": "",
+  "socialDribbble": "",
   "steps": [
     {
       "num": "STEP 1",
       "name": "Kickoff call",
-      "desc": "We start with a call to understand your goals and inspiration."
+      "desc": "We hop on a call to hear about your goals and what's inspiring you."
     },
     {
       "num": "STEP 2",
       "name": "We handle the rest",
-      "desc": "You give feedback while we design and build. Updates every two days — written notes or Loom videos, your pick."
+      "desc": "You give feedback while we design and build. We send updates every two days, written notes or a quick Loom video, whatever works for you."
     },
     {
       "num": "STEP 3",
       "name": "Unlimited revisions",
-      "desc": "Not quite right? Send it back. We keep revising until it's exactly what you're looking for."
+      "desc": "Not quite right? Send it back. We'll keep revising until it feels like you."
     },
     {
       "num": "STEP 4",
       "name": "Launch",
-      "desc": "High quality, fast results — your project completed in just two weeks."
+      "desc": "Your project goes live, done well and done fast, in about two weeks."
     }
   ],
   "copyright": "© 2026 CAPYBARA CREATIVE",
-  "eyebrow": "DESIGN & WEBFLOW DEVELOPMENT AGENCY",
-  "socialLinkedin": "",
-  "quoteAttr": "[ Diego Yanez — Alfred, CEO]",
-  "socialDribbble": "",
-  "heroSubtitle": "Web development, visual identity, and creative strategy for businesses looking to stand out. We bring your ideas to life with a fresh, professional touch — high quality, fast results.",
   "quoteLabel": "WHAT CLIENTS SAY",
-  "quote": "Sent it back twice, they kept revising until it was exactly right — and still launched in two weeks.",
+  "quote": "We sent it back twice and they kept revising until it was exactly right, and still launched in two weeks.",
+  "quoteAttr": "[ Diego Yanez, CEO at Alfred ]",
   "services": [
     {
       "num": "01",
-      "name": "Vizaĝo — Branding",
-      "desc": "\"Face\" in Esperanto. A full brand done in two weeks: custom logo, typography, colors, style guide, and the marketing materials to stay consistent."
+      "name": "Vizaĝo: Branding",
+      "desc": "Vizaĝo means \"face\" in Esperanto. We build your full brand in two weeks: logo, typography, colors, a style guide, and the marketing materials to keep everything consistent."
     },
     {
       "num": "02",
-      "name": "Uzanto — UX/UI design",
-      "desc": "\"User.\" Research, intuitive flows, and beautiful interfaces your users will love — on the web or on mobile."
+      "name": "Uzanto: UX/UI design",
+      "desc": "Uzanto means \"user.\" We do the research and build flows and interfaces people actually enjoy using, on the web or on mobile."
     },
     {
       "num": "03",
-      "name": "Unuigo — Design + Webflow",
-      "desc": "\"Unification.\" From a stunning user experience to a responsive Webflow build — one seamless, complete digital solution."
+      "name": "Unuigo: Design + Webflow",
+      "desc": "Unuigo means \"unification.\" We take a great user experience all the way to a working Webflow site, so design and build stay one connected process."
     },
     {
       "num": "04",
-      "name": "Cycles — Brand + website",
-      "desc": "Fresh branding plus a website with 3–8 subpages, completed in two weeks — social templates included if time allows. $1.8K."
+      "name": "Cycles: Brand + website",
+      "desc": "Fresh branding plus a website with 3 to 8 subpages, done in two weeks. Social templates included if there's time. $1.8K."
     }
   ],
-  "heroTitle": "Brands that stand out. Sites that ship in two weeks."
+  "footerEmail": "hello@capybaracreative.xyz"
 }
