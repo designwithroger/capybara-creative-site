@@ -1,0 +1,13 @@
+{
+  "tenant": "6f1c0a1e-5b7d-4c3a-9d2e-ca9b1c2e0001",
+  "collections": {
+    "proyectos": "5214f2a1-fd6f-5da1-9b8d-f4a99b0c7510",
+    "cinta": "17de1a43-9f96-5b0f-b544-612833063047",
+    "paquetes": "b6d8a1f5-4cb6-5564-8359-7e1388af2d19",
+    "pasos": "09063621-712a-585d-aa52-66b16ea38461",
+    "ia-servicios": "f1019422-838d-5e09-b564-243dc11469c2",
+    "ia-pasos": "a040f777-8a79-5edf-a01a-42ab43357d5e",
+    "ia-resultados": "41b1ad03-dc65-5b9c-bbb6-4de6db6b1e58",
+    "ia-preguntas": "13d51b79-7e19-5ba3-ba52-d3ad695bfbf0"
+  }
+}
