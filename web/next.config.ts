@@ -7,7 +7,7 @@ const securityHeaders = [
   { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
 ];
 
-const PANEL_URL = process.env.PANEL_URL || "https://panel-capybara.vercel.app";
+const PANEL_URL = process.env.PANEL_URL || "https://panel.capybaracreative.xyz";
 
 const nextConfig: NextConfig = {
   poweredByHeader: false,
